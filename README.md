@@ -38,6 +38,17 @@ The script creates a table named “metrika_data” in the SQLite database with 
 * bounce_rate: Bounce rate (type: REAL)
 * avg_visit_duration: Average visit duration (type: REAL)
 
+### Example
+```bash
+CREATE TABLE metrika_data (
+    date DATE,
+    visits INTEGER,
+    pageviews INTEGER,
+    bounce_rate REAL,
+    avg_visit_duration REAL
+);
+```
+
 ### Contributing
 If you find any issues or have suggestions for improvements, feel free to create a new issue or submit a pull request.
 
